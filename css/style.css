@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+    font-family: 'Dosis', sans-serif;
+
+    background-color: #98C1D9;
+    color: #25171A;
+    text-align: justify;
+}
+
+.container {
+    margin: auto;
+    max-width: 500px;
+}
+/* Logo */
+.logo {
+    margin: 50px;
+}
+
+/* Navigation Bar */
+nav {
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+
+    align-content: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;                    
+}
+
+#navbar ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    padding-right: 50px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+    color: #533A7B;
+} 
+
+/* Title */
+
+.title h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100px;
+}
+
+.title p {
+    font-size: 30px;
+}
+
+/* Home */
+.btn {
+    font-size: 18px;
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;    
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Footer */
+#social ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#social ul li {
+    padding-right: 20px;
+}
+
+#social ul li a {
+    text-decoration: none;
+    font-size: x-large;
+}
