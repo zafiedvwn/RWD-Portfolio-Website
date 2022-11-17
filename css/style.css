@@ -12,58 +12,55 @@
 
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 1300px;
 }
 /* Logo */
 .logo {
     margin: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Navigation Bar */
 nav {
     padding: 1px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-
-    align-content: center;
-}
-
-.nav-container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;                    
+    grid-template-columns: 1fr 1fr;
 }
 
 #navbar ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #navbar ul li {
-    padding-right: 50px;
+    padding: 100px 6px 0px 3px;
 }
 
 #navbar ul li a {
     text-decoration: none;
-    font-size: x-large;
-    text-align:center;
+    font-size: 18px;
+    text-align: center;
 }
 
 #navbar ul li a:hover {
     text-decoration: underline;
     color: #533A7B;
-} 
+}
 
 /* Title */
 
 .title h1{
     font-family: 'Bungee Shade', cursive;
     font-size: 100px;
+    text-align: center;
 }
 
 .title p {
     font-size: 30px;
+    text-align: center;
 }
 
 /* Home */
