@@ -36,7 +36,6 @@ nav {
 
 #navbar ul {
     list-style: none;
-
     display: flex;
     flex-direction: row;
 }
@@ -48,6 +47,7 @@ nav {
 #navbar ul li a {
     text-decoration: none;
     font-size: x-large;
+    text-align:center;
 }
 
 #navbar ul li a:hover {
