@@ -28,24 +28,24 @@ nav {
     grid-template-columns: 1fr 1fr;
 }
 
-#navbar ul {
+.navbar ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#navbar ul li {
+.navbar ul li {
     padding: 100px 6px 0px 3px;
 }
 
-#navbar ul li a {
+.navbar ul li a {
     text-decoration: none;
     font-size: 18px;
     text-align: center;
 }
 
-#navbar ul li a:hover {
+.navbar ul li a:hover {
     text-decoration: underline;
     color: #533A7B;
 }
@@ -66,29 +66,31 @@ nav {
 /* Home */
 .btn {
     font-size: 18px;
-    background: #333;
+    background: #6969B3; 
+    color: #fff;
     padding: 15px;
-    border-radius: 5px;    
+    border-radius: 5px;
+    text-decoration:none;   
 }
 
-.btn-light {
-    background: #f4f4f4;
-    color: #333;
+.btn-light:hover {
+    background: #533A7B;
+    color: #98C1D9;
 }
 
 /* Footer */
-#social ul {
+.social ul {
     list-style: none;
 
     display: flex;
     flex-direction: row;
 }
 
-#social ul li {
+.social ul li {
     padding-right: 20px;
 }
 
-#social ul li a {
+.social ul li a {
     text-decoration: none;
     font-size: x-large;
 }
