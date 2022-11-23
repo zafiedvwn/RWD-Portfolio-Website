@@ -100,8 +100,14 @@ nav {
     padding: 5px 5px 5px 5px;
     width: 300px;
 }
-
+/* Arts & Lit Page */
 .arts-pic-size {
+    padding: 5px 5px 5px 5px;
+    width: 400px;
+}
+
+/* Media * Tech Page */
+.memes-pic-size {
     padding: 5px 5px 5px 5px;
     width: 400px;
 }
